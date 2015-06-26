@@ -1,0 +1,35 @@
+5/14/2012, sjb
+
+1. prepare an empty mesh
+
+2. run [Extract_xy_mesh_2012.m]
+   - [...xy.txt] is generated
+
+3. convert .txt into a shp file from zArcCatalog
+   3-1 (optional) Add a field (index) and do 'field calculate' [FID + 1]
+        this may be useful when needs to index points
+
+4. project the shp point to UTM10N WGS (DHI is in WGS84)
+
+5. Re-project (using Option 5) it to UTM10N NAD83 (Terrain Model in NAD83) if the surface model is not in WGS84.
+
+
+
+[ArcMap]
+6. Overlay NAD83 shape file on Terrain model.
+   (\\Cbecm2\f\CBECM2_BACKUP\C_WORK\Projects\11-1031_Prospect_Island\GIS\Terrain_Check_v2.mxd)
+7. ArcToolbox: 3D Analyst Tools - Functional Surface - Interpolate Shape
+   - a new point ZM file is generated
+8. Create Z column in attribute table
+9. Use VB script to populate z on the new column
+10. dbf -> csv
+
+[MATLAB]
+11. create new mesh with Z
+   - modify [extract_xy_from_mesh_inpolygon_back_to_mesh.cfg] accordingly
+   - run [extract_xy_from_mesh_back_to_mesh_2012.m]
+   
+   
+NOTE:
+Cache_complex_v30_calibration_SJB_v6_salinity_v2.mesh
+This is the new calibration salinity IC mesh; using all available measurements including LIS, GSS, DLC.

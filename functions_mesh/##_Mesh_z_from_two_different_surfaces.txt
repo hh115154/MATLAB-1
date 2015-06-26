@@ -1,0 +1,10 @@
+1. convert mesh to xy
+
+1-1. convert xy -> shp  ** Add 'index' in the attribute column: index = FID + 1
+
+
+2. grab z values from different surfaces, which are in identical projection and vertical datum
+
+3. convert each dbf into csv
+
+4. Using MATLAB, combine all csv's into one. Use 'index' to sort the points.
