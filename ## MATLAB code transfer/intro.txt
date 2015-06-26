@@ -1,0 +1,2 @@
+Besides running these scripts successfully, you must understand the structure of the mesh and dfsu files such as nodes, elements and their being in triangles and quadrilaterals. You might want to open any .mesh file on Textpad to see what’s inside of the file. You can easily understand by doing so. This is necessary to manipulate the dfsu with real modeling outputs. MATLAB provides a perfect workspace with its matrix structure and computation capability. We’ll talk more later.
+
