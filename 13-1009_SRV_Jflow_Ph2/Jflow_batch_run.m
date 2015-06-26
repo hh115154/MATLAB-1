@@ -1,0 +1,20 @@
+%% Batch run for animation
+% Jflow_animation_v4_Scenario2_200yr
+% Jflow_animation_v4_Scenario4_200yr
+% Jflow_animation_v4_Scenario5_200yr
+% Jflow_animation_v4_Scenario2_10yr
+% Jflow_animation_v4_Scenario3_10yr
+% Jflow_animation_v4_Scenario4_10yr
+% Jflow_animation_v4_Scenario5_10yr
+% quit
+
+Jflow_animation_v4_Existing_10yr
+%Jflow_animation_v4_Existing_200yr
+Jflow_animation_v4_Scenario5_200yr
+Jflow_animation_v4_Scenario5_10yr
+Jflow_animation_v4_Scenario4_200yr
+Jflow_animation_v4_Scenario4_10yr
+Jflow_animation_v4_Scenario2_200yr
+Jflow_animation_v4_Scenario2_10yr
+Jflow_animation_v4_Scenario3_10yr
+quit
