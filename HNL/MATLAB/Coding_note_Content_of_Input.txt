@@ -1,0 +1,39 @@
+handles.Input.RG
+
+
+              path: '.'
+              name: 'RG-187580.csv'
+                dt: 5
+    storm_duration: 24
+       inter_event: 12
+      storm_volume: 0.2500
+
+handles.Input.FM
+
+                           path: '.'
+                           name: 'FM-187580.csv'
+                DateTime_Adjust: 693960
+        iInterfaceDaysSinceRain: 3
+    iInterfacePercentageBaseGWI: 0.8000
+     iInterfaceDataTimeInterval: 5
+                  PerCapitaFlow: 100
+                     Population: 3000
+              iInterfaceBaseGWI: 0.1500
+         AverageDrySanitaryFlow: 0.0200
+                           Area: 120
+                           
+                           
+handles.InputSetup
+
+ans = 
+
+			st_name: 'Sand Island'
+                         st_num: '248282'
+                       PathName: [1x41 char]
+                   FileNameDATA: [1x77 char]
+             GUI_storm_duration: '24'
+                GUI_inter_event: '12'
+               GUI_storm_volume: '0.25'
+    GUI_iInterfaceDaysSinceRain: '3'
+                 GUI_estBaseGWI: '0.8'
+                       GUI_Area: '120'

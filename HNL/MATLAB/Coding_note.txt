@@ -1,0 +1,39 @@
+Before
+	XDir = normal
+	XGrid = off
+	XLabel = [648.001]
+	XAxisLocation = bottom
+	XLim = [734000 734450]
+	XLimMode = auto
+	XMinorGrid = off
+	XMinorTick = off
+	XScale = linear
+	XTick = [ (1 by 10) double array]
+	XTickLabel = 
+		7.34  
+		7.3405
+		7.341 
+		7.3415
+		7.342 
+		7.3425
+		7.343 
+		7.3435
+		7.344 
+		7.3445
+	XTickLabelMode = auto
+	XTickMode = auto
+
+After datetick
+	XDir = normal
+	XGrid = off
+	XLabel = [648.001]
+	XAxisLocation = bottom
+	XLim = [734047 734443]
+	XLimMode = manual
+	XMinorGrid = off
+	XMinorTick = off
+	XScale = linear
+	XTick = [ (1 by 14) double array]
+	XTickLabel = [ (14 by 8) char array]
+	XTickLabelMode = manual
+	XTickMode = manual
